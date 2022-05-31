@@ -46,10 +46,8 @@ public class Main {
         if (blacks.length > 2) {
             throw new InputMismatchException("Выражение не удовлетворяет заданию - два целочисленных операнда и один оператор (+, -, /, *)");
         }
-        String string1 = blacks[0];
-        String string2 = blacks[1];
-        string1 = string1.trim();
-        string2 = string2.trim();
+        String string1 = blacks[0].trim();
+        String string2 = blacks[1].trim();
         number1 = romanToNumber(string1);
         number2 = romanToNumber(string2);
         if (number1 < 0 && number2 < 0) {
