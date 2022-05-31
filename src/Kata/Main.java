@@ -83,6 +83,7 @@ public class Main {
                 "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"};
         return roman[numArabian];
     }
+
     static int romanToNumber (String roman) {
         return switch (roman) {
             case "I" -> 1;
